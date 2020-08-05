@@ -1,0 +1,29 @@
+package eightJavaProj;
+
+public class ManagementRunner {
+
+	public static Management john = new Management();
+	public static Management alex = new Management();
+	public static Management laila = new Management();
+	
+
+	public static void main(String[] args) {
+
+		john.setEmpID(123543);
+		john.setName("John");
+		john.setRole("Engineer");
+		john.setSalary(30000);
+		
+		System.out.println(john.getEmpID());
+		System.out.println(john.getName());
+		System.out.println(john.getRole());
+		System.out.println(john.getSalary());
+		
+		john.incrementSalary(10); 
+		
+		System.out.println(john.getSalary());
+		
+		
+	}
+
+}

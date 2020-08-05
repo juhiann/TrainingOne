@@ -1,0 +1,11 @@
+package projectTwelve;
+
+public class MyNumber {
+
+	int x;
+	
+	public MyNumber(int x)
+	{
+		this.x = x;
+	}
+}

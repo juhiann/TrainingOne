@@ -1,0 +1,31 @@
+package projectThirteen;
+
+public class FibonacciRunner 
+{
+
+	// field variable
+	static int n1 = 0;
+	static int n2 = 1;
+	static int n3;
+	static int i;
+	static int x;
+	
+	
+	 static void fibonacciNumba(int x)
+	 {
+		for(i=2; i<=x; ++i)
+		{
+			n3 = (n1+n2);
+			System.out.println("" +n3);
+			n1=n2;
+			n2=n3;
+		}
+	 }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		fibonacciNumba(10);
+	}
+
+}
+

@@ -1,0 +1,17 @@
+package projectThirteen;
+
+public class NumberSeq {
+
+	//field variables 
+	
+	public static int n = 0;
+	
+	//constructor 
+
+	public stat
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package projectThirteen;
+
+public class NumberSeq {
+
+	//field variables 
+	
+	public static int n = 0;
+	
+	//additional method1
+	public void allEven(int x)
+	{
+		for(int i = 1; i <= x; i++)
+		{
+			
+			if(i % 2 == 0)
+			{
+				System.out.println(i);
+			}
+		}
+		
+	}
+	
+	//creating an instance 
+	
+	public static NumberSeq orange = new NumberSeq();
+	
+	public static void main(String[] args) 
+	{
+		orange.allEven(4); 
+		
+	}
+
+}

@@ -1,0 +1,70 @@
+package fifthJavaProj;
+
+public class BiNumber {
+
+	// creating field variable
+	
+	private int number1;
+	private int number2;
+	
+	//constructor 
+	
+	public BiNumber(int number1, int number2)
+	{
+		this.number1 = number1;
+		this.number2 = number2;
+	}
+	
+	//encapsulate using setter method
+	
+	public void setNumber1(int number1)
+	{
+		this.number1 = number1;
+	}
+	
+	public void setNumber2(int number2)
+	{
+		this.number2 = number2;
+	}
+	
+	//create getter method
+	
+	public int getNumber1()
+	{
+		return this.number1;
+	}
+	
+	public int getNumber2()
+	{
+		return this.number2;
+	}
+	
+	// creating additional method
+	// equation: number1 + number2
+	//return type int
+	//name add
+	//parameters none
+	//return value is the product of number1 and number2
+	
+	
+	public int add()
+	{
+		return this.number1 + this.number2;
+	}
+	
+	public int mul()
+	{
+		return this.number1 * this.number2;
+	}
+	
+	public void doubValue()
+	{
+		this.number1 *=2;
+		this.number2 *=2;
+	}
+}
+
+
+
+
+

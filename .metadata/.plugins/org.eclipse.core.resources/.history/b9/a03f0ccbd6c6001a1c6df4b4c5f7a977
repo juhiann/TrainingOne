@@ -1,0 +1,67 @@
+package fourthJavaProj;
+
+public class Book2 {
+
+	// creating field variables 
+		private String title;
+		private int noOfCop;
+		private String auth;
+		
+	//encapsulate using setter method
+		public void setTitle(String title)
+		{
+			this.title = title;
+		}
+		
+		public void setNoOfCop (int noOfCop)
+		{
+			if(noOfCop >0)
+			{
+				this.noOfCop = noOfCop;
+			}
+		}
+		
+		public void setAuth (String auth)
+		{
+			this.auth = auth;
+		}
+		
+		// second stage encapsulation, creating a method using the setter method. 
+		// this method increases and decreases the number of copies of the book.
+		// pass an if statement to the noOfCop setter method.
+		
+		//void method to increase the number of books 
+		
+		void incCop (int howMany)
+		{
+			setNoOfCop(this.noOfCop + howMany);
+		}
+		
+		// void method to decrease the number of copies 
+		
+		void decCop(int howMany)
+		{
+			setNoOfCop(this.noOfCop - howMany);
+		}
+		
+	// creating getter methods to retrieve the values assigned using the setter method
+		
+		String getTitle()
+		{
+			return this.title;
+		}
+		
+		int getNoOfCop()
+		{
+			return this.noOfCop;
+		}
+		
+		String getAuth()
+		{
+			return this.auth;
+		}
+		
+	
+	
+}
+

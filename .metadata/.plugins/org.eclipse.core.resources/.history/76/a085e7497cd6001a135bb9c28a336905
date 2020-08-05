@@ -1,0 +1,48 @@
+package projectThirteen;
+
+public class Fibonacci 
+{
+	// Field Variables
+	
+	
+	
+	// Constructors
+	
+	
+	
+	//Getters
+	
+	
+	
+	//Setters
+	
+	
+	
+	//Additional Methods
+	
+	 static void fibonacciNumba(int x)
+	 {
+		 
+	 }
+	 
+	 static void fibonacciNumba()
+	 {
+		 
+	 }
+	 
+	 public void primeFibonacci()
+	 {
+		 
+	 }
+	 
+	 public void evenFibonacci()
+	 {
+		 
+	 }
+	 
+	 public int maxPrimeFibo()
+	 {
+		 return 0;
+	 }
+	 
+}

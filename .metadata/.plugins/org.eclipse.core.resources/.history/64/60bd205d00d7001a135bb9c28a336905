@@ -1,0 +1,28 @@
+package projectThirteen;
+
+public class NumberSeq {
+
+	//field variables 
+	
+	public static int n = 0;
+	
+	//additional method1
+	public void allEven(int x)
+	{
+		if(x % 2 == 0)
+		{
+			System.out.println(x);
+		}
+	}
+	
+	//creating an instance 
+	
+	public static NumberSeq orange = new NumberSeq();
+	
+	public static void main(String[] args) 
+	{
+		orange.allEven(25); 
+		
+	}
+
+}

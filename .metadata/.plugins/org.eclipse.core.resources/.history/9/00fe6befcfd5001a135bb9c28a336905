@@ -1,0 +1,19 @@
+package projectThirteen;
+
+public class FibonacciRunner 
+{
+
+	// field variable
+	static int n1 = 0;
+	static int n2 = 1;
+	static int n3;
+	static int i;
+	static int x;
+	
+	public static void main(String[] args) {
+
+		fibonacciNumba(10);
+	}
+
+}
+

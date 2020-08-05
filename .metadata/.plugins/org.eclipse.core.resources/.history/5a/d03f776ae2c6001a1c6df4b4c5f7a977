@@ -1,0 +1,36 @@
+package fourthJavaProj;
+
+public class BookRunner2 {
+
+	// start filling in the form
+	
+	//Declaring variables directly in the Body of a class - Allowed
+	// int x;
+	
+	//Declaring and Initialising variables directly in the Body of a class - Allowed
+	// int y = 2;
+	
+	//Creating a new instance of object "Book" in the Body of a class - Allowed
+	static Book2 lime = new Book2();
+	static Book2 pickles = new Book2();
+	static Book2 olives = new Book2();
+	
+	//Only Variable Initialising statements directly in the Body of the Class  - Not Allowed
+	//x = 3;
+	
+	//Calling method directly in the body of the Class - Not Allowed
+	//lime.setTitle(Lime);
+	
+	
+	public static void main(String[] args) {
+		
+		lime.setTitle("Lime");
+		pickles.setTitle("Pickles");
+		olives.setTitle("Olives");
+		
+		lime.setAuth("Elicha");
+		pickles.setAuth("Kiora");
+		olives.setAuth("");
+	}
+
+}

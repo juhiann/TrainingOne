@@ -1,0 +1,39 @@
+package firstJavaProj;
+
+public class BookRunner 
+{
+	static Book artPro = new Book();
+	static Book eJava = new Book();
+	static Book cCode = new Book();
+	
+	
+	public static void main (String[] args) 
+	{
+		artPro.setTitle("Art");
+		artPro.setAuthor("Mary");
+		artPro.setNoOfCopies(127);
+		
+		eJava.setTitle("Java");
+		eJava.setAuthor("Karen");
+		eJava.setNoOfCopies(59);
+		
+		cCode.setTitle("Code");
+		cCode.setAuthor("Annie");
+		cCode.setNoOfCopies(327);
+
+
+	
+		artPro.incCop(6);
+		
+		{
+			System.out.println(artPro.getNoOfCopies());
+		}
+		
+		
+		
+	
+	}
+		
+	
+
+}

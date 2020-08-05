@@ -1,0 +1,49 @@
+package projectnine;
+
+public class MyChar {
+
+	private int isNumber;
+	private char isAlphabet; 
+	private char isVowel; 
+	
+	//constructors
+	MyChar(char isAlphabet)
+	{
+		this.isAlphabet = isAlphabet;
+	}
+	
+	//setters
+	public void setIsNumber(int isNumber)
+	{
+		this.isNumber = isNumber;
+	}
+	
+	public void setIsAlphabet(char isAlphabet)
+	{
+		this.isAlphabet = isAlphabet; 
+	}
+	
+	MyChar(char isVowel)
+	{
+		this.isVowel = isVowel;
+	}
+	
+	
+	//getters
+	
+	int getIsNumber()
+	{
+		return this.isNumber;
+	}
+	
+	char getIsAphabet()
+	{
+		return this.isAlphabet;
+	}
+	
+	char getIsVowel()
+	{
+		return this.isVowel;
+	}
+	// additional methods
+}

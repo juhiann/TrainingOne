@@ -1,0 +1,17 @@
+package projecttwelve;
+
+public class MyNumber {
+
+	// cresting variables 
+	int x;
+	
+	//creating constructor 
+	
+	public Mynumber (int x)
+	{
+		this.x = x;
+		
+	}
+
+	
+}

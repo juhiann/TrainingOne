@@ -1,0 +1,19 @@
+package projectThirteen;
+
+public class FibonacciRunner 
+{
+	// Create Object Instance(s) - Object Instantiation
+	
+	
+		
+	//Main Method
+	public static void main(String[] args) 
+	{
+		Fibonacci fibona = new Fibonacci(3);
+		fibona.setFib(25);
+		fibona.fibonacciNumba(fibona.getFib());
+				
+	}
+
+}
+

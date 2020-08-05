@@ -1,0 +1,45 @@
+package fourthJavaProj;
+
+public class Book2 {
+
+	// creating field variables 
+		private String title;
+		private int noOfCop;
+		private String auth;
+		
+	//encapsulate using setter method
+		public void setTitle(String title)
+		{
+			this.title = title;
+		}
+		
+		public void setNoOfCop (int noOfCop)
+		{
+			this.noOfCop = noOfCop;
+		}
+		
+		public void setAuth (String auth)
+		{
+			this.auth = auth;
+		}
+		
+	// creating getter methods to retrieve the valules assigned usong the setter method
+		String getTitle()
+		{
+			return this.title;
+		}
+		
+		int getNoOfCop()
+		{
+			return this.noOfCop;
+		}
+		
+		String getAuth()
+		{
+			return this.auth;
+		}
+		
+	
+	
+}
+

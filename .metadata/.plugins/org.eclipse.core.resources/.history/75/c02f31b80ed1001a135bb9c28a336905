@@ -1,0 +1,33 @@
+package projectTwelve;
+
+public class MyNumber 
+{
+
+	// creating variables 
+	int number;
+	
+	//creating constructors
+	public MyNumber(int number)
+	{
+		this.number = number;
+	}
+	
+	
+	
+	//additional methods
+	
+	
+	
+	
+
+
+
+	
+	
+
+	
+}
+	
+
+	
+		

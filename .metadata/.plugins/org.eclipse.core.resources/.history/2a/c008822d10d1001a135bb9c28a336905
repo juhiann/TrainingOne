@@ -1,0 +1,16 @@
+package projectTwelve;
+
+public class MyNumberRunner 
+{
+	public MyNumber number = new MyNumber(5);
+	
+	
+	
+	public static void main(String[] args) 
+	{
+	
+		  System.out.println(number.isPrime());
+		
+	}
+
+}

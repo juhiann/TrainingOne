@@ -1,0 +1,28 @@
+package projectTwelve;
+
+public class MyNumber {
+
+	// creating variables 
+	int x;
+	
+	//creating constructors
+	public MyNumber(int x)
+	{
+		this.x = x;
+	}
+	
+	
+	//additional methods
+	
+	boolean isPrime()
+	{
+		if(x%2 == 0)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+}

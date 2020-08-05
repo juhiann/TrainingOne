@@ -1,0 +1,86 @@
+package projectThirteen;
+
+public class Fibonacci 
+{
+	// Field Variables
+	
+	private int fib;
+	
+	
+	// Constructors
+	
+	public Fibonacci( int fib)
+	{
+		this.fib = fib;
+	}
+	
+	//Setters
+	
+	public void setFib(int fib)
+	{
+		this.fib = fib;
+	}
+	
+	//Getters
+	
+	public int getFib()
+	{
+		return this.fib;
+	}
+	
+	
+	//Additional Methods
+	
+	public void fibonacciNumba(int num)
+	{
+		 int x = 0;
+		 int y = 1;
+		 int z;
+		 int k;
+		 
+		System.out.println(x);
+		System.out.println(y);
+		z = x + y;
+		System.out.println(z);
+		
+		
+		
+		
+		for(int i = 2; i <= num; i++)
+		{
+			 k = z;
+			 System.out.println("Test K: " + k); //2, 4, 8 
+			 y = k;
+			 System.out.println("Test Y: " + y);
+			 
+			 z = y + z;
+			 System.out.println(z);
+			
+
+		}
+		
+		
+		 
+	 }
+	 
+	 static void fibonacciNumba()
+	 {
+		 
+	 }
+	 
+	 public void primeFibonacci()
+	 {
+		 
+	 }
+	 
+	 public void evenFibonacci()
+	 {
+		 
+	 }
+	 
+	 public int maxPrimeFibo()
+	 {
+		 return 0;
+	 }
+	 
+}

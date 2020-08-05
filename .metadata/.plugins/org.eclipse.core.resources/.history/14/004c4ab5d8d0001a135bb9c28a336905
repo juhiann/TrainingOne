@@ -1,0 +1,23 @@
+package projectTwelve;
+
+public class MyNumberRunner {
+
+	public static MyNumber number = new MyNumber(9);
+	
+	private static void isPrime() {
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+	
+		isPrime();
+		
+		
+
+	}
+
+
+	
+}

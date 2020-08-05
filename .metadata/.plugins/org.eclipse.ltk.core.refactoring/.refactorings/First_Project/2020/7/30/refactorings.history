@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void performOperationUsingNestedIfElse(int number1, int number2, int choice)&apos; from &apos;projectten.MenuRunner.main()&apos; to &apos;projectten.MenuRunner&apos;&#x0D;&#x0A;- Original project: &apos;First_Project&apos;&#x0D;&#x0A;- Method name: &apos;performOperationUsingNestedIfElse&apos;&#x0D;&#x0A;- Destination type: &apos;projectten.MenuRunner&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;performOperationUsingNestedIfElse&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;projectten{MenuRunner.java" name="performOperationUsingNestedIfElse" replace="false" selection="987 368" stamp="1595796853218" version="1.0" visibility="2"/>
+</session>

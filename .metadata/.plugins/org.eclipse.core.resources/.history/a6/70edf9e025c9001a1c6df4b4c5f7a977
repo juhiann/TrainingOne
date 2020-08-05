@@ -1,0 +1,17 @@
+package seventhJavaProj;
+
+public class PassengerRunner {
+
+	public  static Passenger aria = new Passenger();
+	public static Passenger jakoob = new Passenger();
+	public static Passenger khuleirs = new Passenger();
+	
+	
+	public static void main(String[] args) {
+	
+		
+	
+
+	}
+
+}

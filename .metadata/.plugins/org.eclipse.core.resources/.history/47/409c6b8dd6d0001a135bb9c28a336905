@@ -1,0 +1,13 @@
+package projecttwelve;
+
+public class MyNumberRunner {
+
+	Mynumber number = new Mynumber(9);
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package projectTwelve;
+
+public class MyNumberRunner {
+
+	public static MyNumber number = new MyNumber(11);
+	
+	
+	public static void main(String[] args) {
+	
+		System.out.println(number.isPrime(2));
+		
+		
+
+	}
+
+
+	private static void isPrime() {
+		
+		
+	}
+
+}

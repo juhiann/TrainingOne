@@ -1,0 +1,26 @@
+package fifthJavaProj;
+
+public class BiNumberRunner {
+	
+	public static BiNumber numbers = new BiNumber (4, 8);
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(numbers.add());
+		System.out.println(numbers.mul());
+		
+		numbers.doubleValue(2);
+		
+		System.out.println(numbers.getNumber1());
+		System.out.println(numbers.getNumber2());
+
+		System.out.println(numbers.mul());
+
+		
+			
+
+	}
+	
+}
+

@@ -1,0 +1,17 @@
+package projectten;
+
+import java.util.Scanner;
+
+public class MenuRunner {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter number1: ");
+		Scanner scanner = new Scanner(System.in);
+		int number1 =  scanner.nextInt();
+		System.out.println("The number you entered is - " + number1);
+		
+
+	}
+
+}
